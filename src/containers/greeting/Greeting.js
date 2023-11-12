@@ -21,6 +21,12 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
+              <div>
+                <img
+                  alt="man sitting on table"
+                  src={require("../../assets/images/seokha.jpeg")}
+                ></img>
+              </div>
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
@@ -50,7 +56,7 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/* <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
@@ -59,7 +65,7 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </Fade>
